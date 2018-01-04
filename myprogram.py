@@ -7,3 +7,11 @@ dir(c)
 help("".getitem)
 
 c[0:2] #pulls "Hi"
+
+def divide(a,b):
+    try:
+        result = a/b
+        print(result)
+    except:
+        print "error"
+divide(10,0)
